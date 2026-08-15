@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OMC state (all locations)
+.omc/
+**/.omc/
+
+# Large source files - privacy/copyright sensitive
+# Keep directory structure via .gitkeep, exclude all content
+references/sources/transcripts/*
+references/sources/books/*
+references/sources/articles/*
+!references/sources/transcripts/.gitkeep
+!references/sources/books/.gitkeep
+!references/sources/articles/.gitkeep
+
+# Any other source content that might be added later
+references/sources/*.md
+references/sources/*.txt
+references/sources/*.json
+!references/sources/.gitkeep
